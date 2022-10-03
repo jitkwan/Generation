@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+}
+header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.logo {
+    display: flex;
+}
+nav > .main-menu{
+    display: flex;
+    /*justify-content: ;*/
+    list-style-type: none;
+    margin-left:-16px;
+    gap: 16px;
+}
+#learn{
+    padding: 32px 24px;
+    display: flex;
+    background-color: lightgray;
+}
+.img-detail{
+    width: 100%;
+    height: auto;
+}
+.img-learn{
+    max-width: 60%;
+}
+.inside1{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-left: 40px;
+    color: darkgrey;
+}
+button {
+    color: white;
+    background-color: grey;
+    border: 0;
+    font-size: 10px;
+    padding: 8px 0;
+}
+#hurt{
+    display: flex;
+    padding: 32px 24px;
+}
+.hurtmain{
+    padding: 32px 24px;
+    border-right: 1px solid lightgray;
+    max-width: 60%;
+}
+#hurt h1{
+    font-size: 20px;
+    line-height: 18px;
+    margin: 32px 24px 24px auto;
+}
+p{
+    display: block;
+}
+.quote{
+    margin: 24px 0;
+    font-weight: bold;
+}
+.choice{
+    display: flex;
+    min-height: 35%;
+    border-bottom: 1px solid lightgray;
+}
+.choice-img{
+    max-width: 35%;
+    height: auto;
+    margin: 16px;
+}
+.choice-info{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-right: 8px;
+    margin-left: 80px;
+}
+#learning{
+    padding: 32px 72px;
+    display: block;
+    background-color: lightgray;
+}
+#learning h1{
+    padding: 32px 0 16px 0;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+}
+.each-course{
+    width: 30%;
+    margin: 16px;
+    padding-bottom: 24px;
+    background-color: whitesmoke;
+}
+.img-course{
+    width: 100%;
+    height: auto;
+}
+.inside-course{
+    padding: 16px 16px;
+}
+#learning h2 {
+    margin: 16px 0;
+}
+#learning h3 {
+    margin: 8px 0;
+}
+
+#thesis h1{
+    padding: 32px 0;
+    text-align: center;
+}
+.thesis-content{
+    display: flex;
+}
+.thesis-video{
+    padding: 32px 24px;
+    max-width: 60%;
+}
+.main-video{
+    height: auto;
+    max-width: 100%;
+    padding-left: 24px;
+}
+video{
+    height: auto;
+    width: 100%;
+}
+.thesis-description{
+    margin: 24px 0 32px 24px;
+}
+.thesis-description p{
+    margin-top: 16px;
+}
+
+.thesis-detail{
+    max-width: 40%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thesis-detail-inside{
+    display: flex;
+}
+.img-thesis{
+    max-width: 35%;
+    height: auto;
+    margin: 16px;
+    padding: 16px;
+}
+.inside-thesis{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-right: 8px;
+}
+#thesis h4{
+    margin: 8px 0;
+}
+
+
